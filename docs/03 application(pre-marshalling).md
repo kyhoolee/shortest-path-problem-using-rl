@@ -42,10 +42,9 @@ Pre-marshalling is a project in my other github repository
 - 200 different nodes  
 
 <img src="https://user-images.githubusercontent.com/43307537/73136447-1f6e9d80-4091-11ea-9b9d-9aef84a516ef.jpg" width="50%" height="50%" title="example of generating pi through A star simulation" alt="container bay"></img>
-
 <img src="https://user-images.githubusercontent.com/43307537/73136451-285f6f00-4091-11ea-8a24-cb7775d7f27b.gif" width="20%" height="20%" title="example of generating pi through A star simulation" alt="container bay"></img> 
 
-<img src="https://user-images.githubusercontent.com/43307537/73136455-31504080-4091-11ea-87a7-b3a9a5bc5a62.jpg" width="70%" height="70%" title="example of generating pi through A star simulation" alt="container bay"></img> 
+<img src="https://user-images.githubusercontent.com/43307537/73136455-31504080-4091-11ea-87a7-b3a9a5bc5a62.jpg" width="100%" height="100%" title="example of generating pi through A star simulation" alt="container bay"></img> 
 
   #
   
