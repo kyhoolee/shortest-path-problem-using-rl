@@ -5,7 +5,7 @@
   - Theoretically if number of actions are unlimited, then it is possible to find the path but it is very inefficient
 * High difficulty of finding path will result in sparse reward  
 
-<img src="https://user-images.githubusercontent.com/43307537/73133718-f4278680-406f-11ea-997d-c079e4685952.jpg" width="80%" height="80%" title="example of generating pi through A star simulation" alt="container bay"></img>  
+<img src="https://user-images.githubusercontent.com/43307537/73133718-f4278680-406f-11ea-997d-c079e4685952.jpg" width="80%" height="80%" title="difficult to reach target node" alt="container bay"></img>  
   #
 
 ### Solution
@@ -17,7 +17,7 @@
     - In latter episodes distance between initial node and target node is far away
 
 
-<img src="https://user-images.githubusercontent.com/43307537/73133951-6c437b80-4073-11ea-95d3-16239b5bfcbb.jpg" width="80%" height="80%" title="example of generating pi through A star simulation" alt="container bay"></img>  
+<img src="https://user-images.githubusercontent.com/43307537/73133951-6c437b80-4073-11ea-95d3-16239b5bfcbb.jpg" width="80%" height="80%" title="high and low difficulty" alt="container bay"></img>  
   #
 
 #### adjusting difficulty method for training
@@ -28,7 +28,7 @@
 
 
 
-<img src="https://user-images.githubusercontent.com/43307537/73134013-76b24500-4074-11ea-9c4e-2a2aadc292ef.jpg" width="80%" height="80%" title="example of generating pi through A star simulation" alt="container bay"></img>  
+<img src="https://user-images.githubusercontent.com/43307537/73134013-76b24500-4074-11ea-9c4e-2a2aadc292ef.jpg" width="80%" height="80%" title="adjusting difficulty" alt="container bay"></img>  
   #
 
 #### By using adjusting difficulty method for training, I was able to find path between initial node and target node
