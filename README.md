@@ -27,7 +27,7 @@ Goal is to find the shortest path from initial node to target node
 
   #
 ## Create policy by A* algorithm using tree
-* Create policy using A* algorithm  
+* Create policy using A* algorithm
   - Reference to creating policy using MCTS in Alphago zero
 * Due to applying tradintional A* algorithm to unknown graph, it takes long time
   - The A* algorithm is be applied to tree instead of graph
@@ -35,7 +35,12 @@ Goal is to find the shortest path from initial node to target node
 
   #
 ## Solve sparse reward problem
-As the number of nodes and edges increases, it becomeS difficult to reach one target node(sparse reward)
-Sparse reward is big problem because the reward is essential in reinforcement learning
-Increase success episode by adjusting search difficulty according to learning progress
+* As the number of nodes and edges increases, it becomeS difficult to reach one target node(sparse reward)
+* Sparse reward is big problem because the reward is essential in reinforcement learning
+* Increase success episode by adjusting search difficulty according to learning progress
+
+  #
+## Application
+* Apply proposed finding shortest path algorithm to container stockyard premarshalling
+
 
