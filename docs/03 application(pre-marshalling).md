@@ -30,7 +30,7 @@ Pre-marshalling is a project in my other github repository
 #### Find path between 2 specific nodes states(initial node, target node) 
   
 <img src="https://user-images.githubusercontent.com/43307537/73134564-1a9eef00-407b-11ea-9f93-7eccff0d2a64.jpg" width="60%" height="60%" title="example of generating pi through A star simulation" alt="container bay"></img>  
-  #
+
 
 <img src="https://user-images.githubusercontent.com/43307537/73134505-8765b980-407a-11ea-8460-ea74b66f43c8.gif" width="70%" height="70%" title="example of generating pi through A star simulation" alt="container bay"></img>  
 
@@ -38,18 +38,28 @@ Pre-marshalling is a project in my other github repository
 
 ### Result
 
+#### 3X3, 2 different shipping dates, 6 containers
+- 200 different nodes
+<img src="https://user-images.githubusercontent.com/43307537/73136447-1f6e9d80-4091-11ea-9b9d-9aef84a516ef.jpg" width="70%" height="70%" title="example of generating pi through A star simulation" alt="container bay"></img>
 
+<img src="https://user-images.githubusercontent.com/43307537/73136451-285f6f00-4091-11ea-8a24-cb7775d7f27b.gif" width="30%" height="30%" title="example of generating pi through A star simulation" alt="container bay"></img> 
 
+<img src="https://user-images.githubusercontent.com/43307537/73136455-31504080-4091-11ea-87a7-b3a9a5bc5a62.jpg" width="70%" height="70%" title="example of generating pi through A star simulation" alt="container bay"></img> 
 
+  #
+  
+#### 3X3, 3 different shipping dates, 6 containers
+- 900 different nodes
+<img src="https://user-images.githubusercontent.com/43307537/73134505-8765b980-407a-11ea-8460-ea74b66f43c8.gif" width="70%" height="70%" title="example of generating pi through A star simulation" alt="container bay"></img> 
 
+  #
+  
+#### 3X3, 6 different shipping dates, 6 containers
+- 7200 different nodes
+<img src="https://user-images.githubusercontent.com/43307537/73134505-8765b980-407a-11ea-8460-ea74b66f43c8.gif" width="70%" height="70%" title="example of generating pi through A star simulation" alt="container bay"></img> 
 
-
-
-
-
-
-
-
+  #
+  
 
 
 
