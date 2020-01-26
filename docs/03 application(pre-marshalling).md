@@ -36,9 +36,7 @@ Pre-marshalling is a project in my other github repository
 
   #
 
-### Result
-
-#### 3X3, 2 different shipping dates, 6 containers
+### Result for 3X3, 2 different shipping dates, 6 containers
 - 200 different nodes  
 - 12 actions
 
@@ -50,7 +48,7 @@ Pre-marshalling is a project in my other github repository
 
   #
   
-#### 3X3, 3 different shipping dates, 6 containers
+### Result for 3X3, 3 different shipping dates, 6 containers
 - 900 different nodes  
 - 12 actions
 
@@ -62,7 +60,7 @@ Pre-marshalling is a project in my other github repository
 
   #
   
-#### 3X3, 6 different shipping dates, 6 containers
+### Result for 3X3, 6 different shipping dates, 6 containers
 - 7200 different nodes
 - 14 actions
 
