@@ -63,34 +63,6 @@ class Train:
             print('difficulty', difficulty, ' generating data and training complete')
             print('-' * 25)
 
-
-            ###
-            T_state.containers = deepcopy(self.env.containers)
-            tar_state = T_state.make_tar_state()
-            value = self.net.predict_value([tar_state, tar_state])
-            value_policy = self.net.predict_value_policy([tar_state, tar_state])
-            print(tar_state)
-            print(f'출력된 value: {value}')
-            print(f'출력된 value_policy: {value_policy}')
-            self.env.state = deepcopy(tar_state)
-            valid_moves = self.env.get_valid_moves()
-            for i in range(len(valid_moves)):
-                if valid_moves[i][0] != 0:
-                    action_num = i
-                    break
-            self.env.execute_action(valid_moves[action_num])
-            value = self.net.predict_value([self.env.state, tar_state])
-            #value_policy = self.net.predict_value_policy([self.env.state, tar_state])
-            print(self.env.state)
-            print(f'출력된 value: {value}')
-            #print(f'출력된 value_policy: {value_policy}')
-            print('-' * 25)
-            ###
-
-
-
-            #if difficulty > 5:
-            # check sorting with CFG.sn(initial state)
             print('start test')
             test.search(difficulty)
 

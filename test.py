@@ -15,7 +15,7 @@ class sort:
         self.env = env
         self.s0 = np.array(CFG.s0, dtype=float)
         self.st = np.array(CFG.st, dtype=float)
-        self.A_star = A_star(self.net, A_star_sim = CFG.num_A_star_sims, check_repeat_state=False)
+        self.A_star = A_star(self.net, A_star_sim = CFG.num_A_star_sims, check_repeat_state=CFG.A_star_graph)
 
 
     def search(self, difficulty):
@@ -52,7 +52,7 @@ class sort:
                 print(self.env.state)
                 break
 
-        if count_step < 20 and CFG.draw_graph:  # 그래프 그리기
+        if CFG.draw_graph:  # draw graph
             draw_graph().start(state_history, difficulty)
 
         end_time = datetime.datetime.now()
