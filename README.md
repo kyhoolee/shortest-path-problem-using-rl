@@ -15,6 +15,10 @@ Same path finding algorithm is used in my other project
 * Goal is to find the shortest path from initial node to target node  
 
 <img src="https://user-images.githubusercontent.com/43307537/73137075-e84fba80-4097-11ea-84c2-0cf40826da2a.gif" width="80%" height="80%" title="goal of this project" alt="container bay"></img>  
+  #
+* Actual path found in this project  
+  
+<img src="https://user-images.githubusercontent.com/43307537/73136589-8b053a80-4092-11ea-9b6c-b1dc4d1f9ac9.jpg" width="80%" height="80%" title="actual graph for finding shortest path" alt="container bay"></img>  
 
   #
 ## Apply reinforcement learning
