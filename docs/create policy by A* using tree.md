@@ -3,6 +3,9 @@
 * Traditional A* algorithm is applied to graph 
 * Since structure of graph is unknown, **drawing graph from root node** and A* simulation will be performed simultaneously(image below)
   - Compute h(n) by using neural network to output node states value
+  - Each node has 6 edges
+  - 30 simulations are done for creating 1 policy
+    - 30 close nodes are selected(without root node)
 
 <img src="https://user-images.githubusercontent.com/43307537/73133181-7e6bec80-4068-11ea-8e42-f15f913b5697.jpg" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="container bay"></img>  
   #
@@ -35,6 +38,10 @@
 
 #### Time decrease
 * Table below show reduction of time
+* The simulation conditions 
+    - node has maximum 56 edges
+    - 1,000 simulations are done
+      - 1,000 close nodes are selected when creating 1 policy for root node
 
 ||total time taken(s)|number of generated nodes|
 |:-|:-:|:-:|
