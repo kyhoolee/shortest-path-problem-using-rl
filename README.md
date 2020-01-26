@@ -34,6 +34,7 @@ Same path finding algorithm is used in my other project
 * Due to applying tradintional A* algorithm to unknown graph, it takes long time
   - The A* algorithm is be applied to tree instead of graph
   - Reduced time significantly  
+  
 Detail explanation: [create policy by A* using tree](https://github.com/2asyhard/shortest-path-problem-using-rl/blob/master/docs/01%20create%20policy%20by%20A*%20using%20tree.md)  
 
 
