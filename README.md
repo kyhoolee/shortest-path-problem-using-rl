@@ -14,7 +14,7 @@ Same path finding algorithm is used in my other project
 * All nodes in the graph can be initial node and target node  
 * Goal is to find the shortest path from initial node to target node  
 
-<img src="https://user-images.githubusercontent.com/43307537/73132640-254c8a80-4061-11ea-867a-a31a0923d89c.gif" width="80%" height="80%" title=" " alt="container bay"></img>  
+<img src="https://user-images.githubusercontent.com/43307537/73132640-254c8a80-4061-11ea-867a-a31a0923d89c.gif" width="80%" height="80%" title="goal of this project" alt="container bay"></img>  
 
   #
 ## Apply reinforcement learning
@@ -24,7 +24,7 @@ Same path finding algorithm is used in my other project
   - Repeat executing action for each state of nodes and reach target node
   - Selecting action(a1) from nodes state(s0) will move to another nodes state(s1) as shown below
   
-<img src="https://user-images.githubusercontent.com/43307537/73132633-1239ba80-4061-11ea-863a-3cce951236f5.jpg" width="25%" height="25%" title=" " alt="container bay"></img>  
+<img src="https://user-images.githubusercontent.com/43307537/73132633-1239ba80-4061-11ea-863a-3cce951236f5.jpg" width="25%" height="25%" title="node=state, edge=action" alt="container bay"></img>  
 
 
   #
