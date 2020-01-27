@@ -7,6 +7,7 @@ Same path finding algorithm is used in my other project
 * Find the shortest path using reinforcement learning when graph is unknown  
 * Create policy by applying the A* algorithm using tree  
 * Solve sparse reward problem by adjusting search difficulty  
+* Apply to real world problem  
 
   #
 ## Shortest path problem
